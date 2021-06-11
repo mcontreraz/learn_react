@@ -10,18 +10,11 @@ const Form = () => {
             placeholder="&#xf0e0;   Correo Electronico"
             className="form-control email mt-5"
           />
-          <div className="input-group mb-3">
-            <div className="input-group-prepend">
-              <span className="input-group-text">
-                <i class="fas fa-key"></i>
-              </span>
-            </div>
-            <input
+          <input
             type="password"
-            placeholder="Contraseña"
-            className="form-control"
+            placeholder="&#xf0e7;   Password"
+            className="form-control email mt-3"
           />
-          </div>
         </form>
         <button className="btn btn-sm btn-warning w-100 mt-3">Enviar</button>
       </div>
